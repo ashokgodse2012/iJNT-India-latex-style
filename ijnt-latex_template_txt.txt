@@ -1,0 +1,184 @@
+
+%-----------------------Journal of New Theory-------------------------------------
+
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[left=3.5cm, right=3cm, top=3cm, bottom=.8cm]{geometry}
+\usepackage{amsmath,amsthm,amssymb,enumerate,graphics,latexsym,fancyhdr,multicol}
+\usepackage{hyperref}
+\usepackage{color}
+\theoremstyle{definition}
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{proposition}[lemma]{Proposition}
+\newtheorem{example}[lemma]{Example}
+\newtheorem{theorem}[lemma]{Theorem}
+\newtheorem{corollary}[lemma]{Corollary}
+\newtheorem{definition}[lemma]{Definition}
+\newtheorem{remark}[lemma]{Remark}
+\newtheorem{conjecture}[lemma]{Conjecture}
+\newtheorem{note}[lemma]{Note}
+
+\newcommand\textlcsc[1]{\textsc{\MakeLowercase{#1}}}
+\newcommand{\JournalNumber}{}%
+\newcommand{\Year}{\textcolor[rgb]{1,0,0}{2017}}%
+\newcommand{\FirstPage}{13}%
+\newcommand{\FinalPage}{30}%
+
+\newcommand{\ReceivedDate}{09.11.2016}%
+\newcommand{\AcceptedDate}{30.11.2017}%
+
+\newcommand{\EditorsinChief}{A. D. Godase}%
+\newcommand{\AreaEditor}{...............}%Area Editor's Name
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%---PLEASE DON'T TOUCH HERE!---%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{page}{\FirstPage}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\PagesNumbers}{\FirstPage-\FinalPage}\renewenvironment{title}{\center\large\bf}{\par}%%%%%%%
+\newenvironment{AuthorName}{\flushright\bf}{\par}\newenvironment{AuthorEmail}{\flushleft}{\par}%%%%%%%%%
+\newenvironment{AuthorAddress}{\center\footnotesize\it}{\par\quad}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewenvironment{abstract}{\noindent\textbf{\footnotesize{Abstaract}} $-$\footnotesize}{\par\noindent}%
+\newenvironment{keywords}{\noindent\textbf{\footnotesize{\emph{Keywords}}} $-$\footnotesize\it}{\par}%%%
+\thispagestyle{empty}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\jnt}{\textcolor[rgb]{0,0.8,1}{Indian Journal in Number Theory} }%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\markboth{\footnotesize\jnt \JournalNumber (\Year) \PagesNumbers}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\footnotesize\jnt \JournalNumber\, (\Year) \PagesNumbers}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent {\color[rgb]{0,0,1}\textit{https://ijntindia.puzl.com}}\hfill {ISSN: $\times\times\times\times$}\\ \scalebox{0.25}%%%%%%%%%%%%%
+{\includegraphics{JNT}}\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%JNT.EPS
+{\footnotesize\emph{Received}:\hspace{0.32cm}\ReceivedDate}\hfill %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\footnotesize \emph{Year}: \textbf{\Year}, \emph{} \textbf{\JournalNumber} \emph{Pages}: %%%%%%
+\textbf{\PagesNumbers}}\\ \noindent{\footnotesize\emph{Published}: \AcceptedDate}\hspace{7.75cm} %%%%%%%
+{\footnotesize\emph{Original Article}\renewcommand{\thefootnote}{**}\footnote{\emph{Edited by %%%%%%%%%%
+\emph{ \emph{\EditorsinChief} (Editor-in-Chief).}}}\\%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{myheadings}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\thefootnote}{*}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{title}
+\textsc{{\LARGE Title of the Paper}}
+\end{title}
+
+\begin{multicols}{2}
+\begin{AuthorName}
+Author$^{1,}$\footnote{\emph{Corresponding Author.}} \\
+Author$^2$ \\
+\end{AuthorName}
+
+\begin{AuthorEmail}
+$<$.....@....com$>$ \\
+$<$.....@....com$>$ \\
+\end{AuthorEmail}
+\end{multicols}
+
+\begin{AuthorAddress}
+$^1${\footnotesize\emph{Department of Mathematics,  College , Pincode, state, country}} \\
+$^2${\footnotesize\emph{Department of Mathematics,  College , Pincode, state, country}} \\
+\end{AuthorAddress}
+
+\begin{abstract}
+Indian Journal in Number Theory
+\end{abstract}
+
+\begin{keywords}
+Indian Journal in Number Theory
+\end{keywords}
+
+%--------------------------------SECTION 1---------------------------------------------
+\section{\textsc{Introduction}}
+
+Indian Journal in Number Theory
+%--------------------------------SECTION 2---------------------------------------------
+\section{\textsc{Preliminary}}
+Indian Journal in Number Theory
+\section{\textsc{Discussion and Results}}
+Indian Journal in Number Theory
+\section{\textsc{Conclusion}}
+Indian Journal in Number Theory
+\newpage
+\begin{thebibliography}{2}
+\bibitem{Srisawat}
+{\textsc{Srisawat, Somnuk, and Wanna Sriprad}, On the $(s, t)$-Pell and $(s, t)$-Pell Lucas numbers by matrix methods, \emph{Applied Mathematics LettersIn Annales Mathematicae et Informaticae}, Vol.~ {46}, (2016), 195–204.\\\hspace{2mm}\url{http://ami.ektf.hu/uploads/papers/finalpdf/AMI_46_from195to204}}
+
+
+\bibitem{gulec}
+{\textsc{H.H. Gulec, N. Taskara}, On the $(s, t)$-Pell and $(s, t)$-Pell Lucas sequences and their matrix representations, \emph{Applied Mathematics Letters}, Vol.~ {25}, (2012), 1554–1559.\\\hspace{2mm}\url{https://doi.org/10.1016/j.aml.2012.01.014}}
+
+
+\bibitem{yuan}{\textsc{Yuan, Yi, and Wenpeeg Zhang}, Some identities involving the Fibonacci polynomials. \emph{Fibonacci Quarterly}, Vol.~{40(02)}, (2002), 314--318.\\\hspace{2mm}\url{http://www.fq.math.ca/Scanned/40-4/yuan}}
+
+
+\bibitem{zhang}{\textsc{Wu, Zhengang, and Wenpeng Zhang}, Several identities involving the Fibonacci polynomials and Lucas polynomials, \emph{Journal of Inequalities and Applications}, Vol.~{2013(1)}, (2013), 205--218.\\\hspace{2mm}\url{  http://link.springer.com/article/10.1186/1029-242X-2013-205}}
+
+
+\bibitem{zhang-1}{\textsc{Wu, Zhengang, and Wenpeng Zhang}, The sums of the reciprocals of Fibonacci polynomials and Lucas polynomials, \emph{Journal of Inequalities and Applications}, Vol.~{2012(1)}, (2012), 134--140.\\\hspace{2mm}\url{http://link.springer.com/article/10.1186/1029-242X-2012-134}}
+
+
+\bibitem{koken}{\textsc{Koken, F., Bozkurt, D.} On the Jacobsthal numbers by matrix methods, \emph{Int. J. Contemp. Math. Sciences}, Vol.~{3(13)}, (2008), 605–-614.\\\hspace{2mm}\url{http://m-hikari.com/ijcms-password2008/33-36-2008/kokenIJCMS33-36-2008}}
+
+\bibitem{silv}{\textsc{Silvester, J. R.} Fibonacci properties by matrix methods, \emph{The Mathematical Gazette}, Vol.~{63(425)}, (1979), 188–-191.\\\hspace{2mm}\url{http://www.jstor.org/stable/3617892}}
+
+\bibitem{nalli}{\textsc{Nalli A, Haukkanen P.} On generalized Fibonacci and Lucas polynomials, \emph{Chaos, Solitons and Fractals}, Vol.~{42(5)}, (2009), 3179–-86. \\\hspace{2mm}\url{https://doi.org/10.1016/j.chaos.2009.04.048}}
+
+\bibitem{hord}{\textsc{A. F. Horadam}, {Basic Properties of a Certain Generalized Sequence of Numbers}, \emph{ Fibonacci Quarterly}, Vol.~{03(3)}, (1965), 61 -- 76. \\\hspace{2mm}\url{http://www.fq.math.ca/Scanned/3-3/horadam}}.
+
+\bibitem{fal-4}{\textsc{S. Falcon, A. Plaza}, {On $k$ -Fibonacci sequences and polynomials and their derivatives}, \emph{Chaos, Solitons and Fractals}, Vol.~{39(03)}, (2009), 1005 -- 1019.\\ \hspace{2mm}\url{https://doi.org/10.1016/j.chaos.2007.03.007}}.
+
+\bibitem{fal-1}{\textsc{S. Falcon, A. Plaza}, {On the $k$ Fibonacci numbers}, \emph{Chaos, Solitons and Fractals}, Vol.~{32(05)}, (2007), 1615 -- 1624.\\ \hspace{2mm}\url{https://doi.org/10.1016/j.chaos.2006.09.022}}.
+
+\bibitem{fal-2} {\textsc{S. Falcon, A. Plaza}, {The $k$ Fibonacci sequence and the Pascal $2$ triangle}, \emph{Chaos, Solitons and Fractals}, Vol.~{33(1)}, (2007), 38 - 49 .\\ \hspace{2mm} \url{https://doi.org/10.1016/j.chaos.2006.10.022}}.
+
+\bibitem{fal-3} {\textsc{S. Falcon, A. Plaza}, {The $k$ Fibonacci hyperbolic functions}, \emph{Chaos, Solitons and Fractals}, Vol.~{38(2)}, (2008), 409 -- 20.\\ \hspace{2mm} \url{https://doi.org/10.1016/j.chaos.2006.11.019}}.
+
+\bibitem{fil}
+{{\textsc{P. Filipponi, A. F. Horadam}, {A Matrix Approach to Certain Identities}, \emph{The Fibonacci Quarterly}, Vol.~{26(2)}, (1988), 115 -- 126}.\\\hspace{2mm} \url{http://www.fq.math.ca/Scanned/26-2/filipponi}}
+
+\bibitem{wadill}{\textsc{ Waddill, Marcellus E., Louis Sacks }, {Another generalized Fibonacci sequence}, \emph{The Fibonacci Quarterly}, Vol.~{5( 03)}, (1967) 209 -- 222.\\\hspace{2mm} \url{ http://www.fq.math.ca/Scanned/5-3/waddill}}
+
+\bibitem{kal} 
+{{\textsc{D. Kalman}, Generalized Fibonacci numbers by matrix methods, \emph{Fibonacci Quarterly}, Vol.~{20 (1)},(1982), 73--76}.\\\hspace{2mm} \url{http://www.fq.math.ca/Scanned/20-1/kalman}}
+
+\bibitem{bol}
+{\textsc{C. Bolat}, Properties and applications of $k$ -Fibonacci, $k$-Lucas numbers, \emph{M. S. Thesis, Selcuk University}, (2008), Konya, Turkey.\\\hspace{2mm} \url{http://www.m-hikari.com/ijcms-2010/21-24-2010/bolatIJCMS21-24-2010}}
+
+\bibitem{paula}
+{\textsc{Paula Catarino, Vasco P.}, ASome basic properties and a two-by-two matrix involving the $k$-Pell numbers, \emph{Int. Journal of Math. Analysis}, Vol.~{7(45)},(2013), 2209--2215. \\\hspace{2mm} \url{https://doi.org/10.1016/j.chaos.2015.04.017}}
+
+\bibitem{fp-1}
+{\textsc{S. Falcon, A. Plaza}, On the $3$ - dimensional $k$ - Fibonacci spirals, \emph{Chaos, Solitons and Fractals},  Vol.~{38}, (2008), 993--1003.\\\hspace{2mm} \url{https://doi.org/10.1016/j.chaos.2007.02.009}}
+
+\bibitem{fp}
+{\textsc{S. Falcon, A. Plaza}, On $k $-Fibonacci numbers of arithmetic indexes, \emph{Applied Mathematics and Computation},  Vol.~{208 (1)},(2009), 180--185.\\\hspace{2mm} \url{https://doi.org/10.1016/j.amc.2008.11.031}}
+
+\bibitem{sr}
+{\textsc{F. Sergio}, Generalized Fibonacci sequences generated from a k-Fibonacci sequence, \emph{Journal of Mathematics Research}, Vol.~{4 (2)},(2012), 97--100.\\\hspace{2mm} \url{http://www.ccsenet.org/journal/index.php/jmr/article/download/14516/10822}}
+
+\bibitem{godse-1}
+{\textsc{A. D. Godase, M. B. Dhakne}, {On the properties of $k$ Fibonacci and $k$ Lucas numbers}, \emph{International Journal of Advances in Applied Mathematics and Mechanics}, Vol.~{02} (2014), 100 -- 106.\\\hspace{2mm} \url{http://www.ijaamm.com/uploads/2/1/4/8/21481830/v2n1p12}}
+
+\bibitem{godse-4}
+{\textsc{A. D. Godase, M. B. Dhakne}, {Summation Identities for $k$ Fibonacci and $k$ Lucas Numbers using Matrix Methods}, \emph{International Journal of Mathematics and Scientific Computing }, Vol.~{05(2}), (2015), 75 -- 78.\\\hspace{2mm} \url{https://www.veltechuniv.edu.in/wp-content/uploads/2016/04/Paper-03-15}}
+
+\bibitem{godse-5}
+{\textsc{A. D. Godase, M. B. Dhakne}, {Determinantal Identities for $k$ Lucas Sequence}, \emph{Journal of New Theory}, Vol.~{12(1)},  (2015), 01 -- 07.\\\hspace{2mm} \url{http://www.newtheory.org/jnt-papers/12-2016/JNT-12-2016-01}}
+
+\bibitem{melham}
+{\textsc{R. S. Melham}, {Sums of certain products of Fbonacci and Lucas Numbers}, \emph{The Fibonacci Quarterly}, Vol.~{37(3)} (1999), 248--251.\\\hspace{2mm} \url{https://opus.lib.uts.edu.au/bitstream/10453/17904/1/2011004786OK}}
+
+\bibitem{yilmaz}
+{\textsc{Y. Yazlik, N. Yilmaz and N. Taskara}, {On the Sums of Powers of k-Fibonacci and k-Lucas Sequences}, \emph{Selçuk J. Appl. Math.}, Vol.~{Special Issue} (2012), 47--50.\\\hspace{2mm} \url{http://sjam.selcuk.edu.tr/sjam/article/view/327/249}}
+
+\bibitem{Demirturk}
+{\textsc{Demirturk B.}, {Fibonacci and Lucas Sums by matrix Methods}, \emph{International Mathematical Forum}, Vol.~{5(3)} (2010), 99--107.\\\hspace{2mm} \url{http://m-hikari.com/imf-2010/1-4-2010/demirturkIMF1-4-2010}}
+
+
+\bibitem{Ugyun}
+{\textsc{Ugyun, S. and Eldogan H.}, {$k$-Jacobsthal and $k$-Jacobsthal Lucas matrix sequences}, \emph{International Mathematical Forum}, Vol.~{11(3)} (2016), 145--154.\\\hspace{2mm} \url{http://m-hikari.com/imf-2010/1-4-2010/demirturkIMF1-4-2010}}
+
+\end{thebibliography}
+
+\vspace{0.1in}
+\hrule width \hsize \kern 1mm
+%\hrule width \hsize height 2pt
+\end{document}
+
